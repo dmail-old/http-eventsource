@@ -2,11 +2,12 @@
 	"name": "@dmail/http-eventsource",
 	"version": "0.0.1",
 	"dependencies": {
+		"system-postinstall": "git+https://github.com/dmail/system-postinstall",
 		"@dmail/proto": "git+https://github.com/dmail/proto",
 		"@dmail/http": "git+https://github.com/dmail/http"
 	},
 	"scripts": {
-		"postinstall": "node script/postinstall.js"
+		"postinstall": "system-postinstall"
 	},
 	"repository": {
 		"type": "git",
