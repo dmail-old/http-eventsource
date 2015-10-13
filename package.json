@@ -1,12 +1,15 @@
 {
 	"name": "@dmail/http-eventsource",
 	"version": "0.0.1",
+	"license": "UNLICENSED",
 	"dependencies": {
-		"@dmail/proto": "git+https://github.com/dmail/proto",
 		"@dmail/http": "git+https://github.com/dmail/http"
 	},
+	"devDependencies": {
+		"system-test": "git+https://github.com/dmail/system-test"
+	},
 	"scripts": {
-		
+		"test": "system-test"
 	},
 	"repository": {
 		"type": "git",
